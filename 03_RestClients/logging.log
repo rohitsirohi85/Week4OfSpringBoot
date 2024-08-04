@@ -1,0 +1,23 @@
+2024-07-30T15:10:04.122+05:30  INFO 8884 --- [prod-ready-features] [main] .a.p.p.ProdReadyFeaturesApplicationTests : Starting ProdReadyFeaturesApplicationTests using Java 21.0.2 with PID 8884 (started by rc in C:\Users\rc\OneDrive\Desktop\springboot\04_week4\03_RestClients)
+2024-07-30T15:10:04.129+05:30  INFO 8884 --- [prod-ready-features] [main] .a.p.p.ProdReadyFeaturesApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-07-30T15:10:08.902+05:30  INFO 8884 --- [prod-ready-features] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-30T15:10:09.685+05:30  INFO 8884 --- [prod-ready-features] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 709 ms. Found 1 JPA repository interface.
+2024-07-30T15:10:14.998+05:30  INFO 8884 --- [prod-ready-features] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-30T15:10:15.823+05:30  INFO 8884 --- [prod-ready-features] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-30T15:10:16.016+05:30  INFO 8884 --- [prod-ready-features] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-30T15:10:16.705+05:30  INFO 8884 --- [prod-ready-features] [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2024-07-30T15:10:18.641+05:30  INFO 8884 --- [prod-ready-features] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-30T15:10:18.888+05:30  INFO 8884 --- [prod-ready-features] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-30T15:10:20.269+05:30  INFO 8884 --- [prod-ready-features] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13e1e816
+2024-07-30T15:10:20.281+05:30  INFO 8884 --- [prod-ready-features] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-30T15:10:22.325+05:30  INFO 8884 --- [prod-ready-features] [main] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.codingshuttle.anuj.prod_ready_features.prod_ready_features.entities.PostEntity
+2024-07-30T15:10:24.466+05:30 ERROR 8884 --- [prod-ready-features] [main] o.h.metamodel.internal.MetadataContext   : HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2024-07-30T15:10:24.480+05:30  INFO 8884 --- [prod-ready-features] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-30T15:10:24.866+05:30  INFO 8884 --- [prod-ready-features] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30T15:10:27.170+05:30  WARN 8884 --- [prod-ready-features] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-30T15:10:29.082+05:30  INFO 8884 --- [prod-ready-features] [main] .a.p.p.ProdReadyFeaturesApplicationTests : Started ProdReadyFeaturesApplicationTests in 26.691 seconds (process running for 32.268)
+2024-07-30T15:10:31.060+05:30 TRACE 8884 --- [prod-ready-features] [main] c.c.a.p.p.c.impl.EmployeeClientImpl      : trying to get list of employees
+2024-07-30T15:10:31.273+05:30 ERROR 8884 --- [prod-ready-features] [main] c.c.a.p.p.c.impl.EmployeeClientImpl      : error occurred in getAllEmployees()
+2024-07-30T15:10:31.372+05:30  INFO 8884 --- [prod-ready-features] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-30T15:10:31.379+05:30  INFO 8884 --- [prod-ready-features] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-30T15:10:31.520+05:30  INFO 8884 --- [prod-ready-features] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
