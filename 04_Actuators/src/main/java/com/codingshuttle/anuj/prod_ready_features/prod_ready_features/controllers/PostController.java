@@ -14,6 +14,9 @@ public class PostController {
 
     private final PostService postService;
 
+    // if we want to see actuators so
+    // http://localhost:9000/actuator
+
     @GetMapping
     public List<PostDTO> getAllPosts() {
         return postService.getAllPosts();

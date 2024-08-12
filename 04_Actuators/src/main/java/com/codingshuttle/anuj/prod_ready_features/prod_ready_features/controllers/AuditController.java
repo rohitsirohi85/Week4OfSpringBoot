@@ -19,6 +19,7 @@ import jakarta.persistence.EntityManagerFactory;
 @RequestMapping(path = "/audit")
 
 // this audit controller made bcz we want to make an api which can show all
+// auditor aware stores the info in database about user who changes inside the code
 // changes for a particular filed which admin want
 public class AuditController {
 
